@@ -1,0 +1,47 @@
+# TS-001 - Suite de autenticação
+
+---
+
+# 1. Objetivo
+
+Validar todas as funcionalidades relacionadas ao processo de autenticação do sistema, garantindo segurança, integridade, e funcionamento correto de todo o fluxo de autenticação.
+
+---
+
+# 2. Módulo
+
+Autenticação de usuários
+
+---
+
+# 3. Funcionalidades cobertas
+
+- Login
+- Logout
+- fluxo de convite de funcionário
+- fluxo de convite de novo assinante do sistema
+- Proteção de rotas da API e acesso a telas de admin
+- Fluxo de roles
+
+---
+
+# 4. Testes aplicados
+
+- Funcional
+- Regressão
+- Exploratório
+- Segurança
+
+---
+
+# 5. Casos de Teste Relacionados
+
+ID | Descrição | Prioridade
+
+CT-001 | Login com credenciais válidas(email e senha) | Alta 
+CT-002 | Login com credenciais inválidas(email e senha) | Alta
+CT-003 | Login com credenciais válidas(Google) | Alta
+CT-004 | Login com credenciais inválidas(Google) | Alta
+CT-005 | Logout do sistema | Baixa
+CT-006 | Tentativa de SQL Injection | Alta
+
