@@ -17,7 +17,9 @@ Garantir que as funiconalidades críticas do sistema estejam funcoinando correta
 - Convite de funcionários
 - Dashboard principal
 - Gestão financeira
-- fluxo de venda
+- Fluxo de venda
+- Fluxo de gestão financeira
+- Cadastro de produtos
 
 ## Funcionalidades não incluídas
 
@@ -81,7 +83,6 @@ suite de autenticacao
 suite da dashboard
 suite do financeiro
 suite de vendas
-
 ---
 
 # 8. Casos de teste críticos
@@ -92,6 +93,7 @@ suite de vendas
  - login com convite
  - lançamento de venda
  - abertura e fechamento de caixa
+
 
 ---
 

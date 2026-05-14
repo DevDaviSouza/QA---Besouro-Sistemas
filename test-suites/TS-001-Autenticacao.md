@@ -38,10 +38,23 @@ Autenticação de usuários
 
 ID | Descrição | Prioridade
 
-CT-001 | Login com credenciais válidas(email e senha) | Alta 
+CT-001 | Login com credenciais válidas(email e senha) | Crítica 
 CT-002 | Login com credenciais inválidas(email e senha) | Alta
-CT-003 | Login com credenciais válidas(Google) | Alta
+CT-003 | Login com credenciais válidas(Google) | Crítica
 CT-004 | Login com credenciais inválidas(Google) | Alta
 CT-005 | Logout do sistema | Baixa
 CT-006 | Tentativa de SQL Injection | Alta
 
+# 6. Pré-condições
+
+- Usuário cadastrado no sistema
+- Backend integrado
+- Integração Clerk funcionando
+
+---
+
+# 7. Critérios de aprovação
+
+- Todos os testes críticos devem passar sem falhas
+- Nenhum bug bloqueante ou crítico deve existir
+- Funcionalidades de autenticação devem estar estáveis e seguras
