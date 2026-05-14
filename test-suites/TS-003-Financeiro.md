@@ -32,6 +32,7 @@ Financeiro
 - Regressão
 - Exploratório
 - Segurança
+- Teste de borda
 
 ---
 

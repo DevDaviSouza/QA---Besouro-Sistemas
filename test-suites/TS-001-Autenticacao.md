@@ -31,6 +31,7 @@ Autenticação de usuários
 - Regressão
 - Exploratório
 - Segurança
+- Teste de borda
 
 ---
 
@@ -44,6 +45,7 @@ CT-003 | Login com credenciais válidas(Google) | Crítica
 CT-004 | Login com credenciais inválidas(Google) | Alta
 CT-005 | Logout do sistema | Baixa
 CT-006 | Tentativa de SQL Injection | Alta
+CT-007 | Testes de borda - minimo de caracteres, maximo etc | Alta
 
 # 6. Pré-condições
 

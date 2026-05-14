@@ -33,6 +33,7 @@ Vendas
 - Regressão
 - Exploratório
 - Segurança
+- Teste de borda
 
 ---
 
