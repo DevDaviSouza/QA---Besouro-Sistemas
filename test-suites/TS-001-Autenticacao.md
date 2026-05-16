@@ -39,13 +39,13 @@ Autenticação de usuários
 
 ID | Descrição | Prioridade
 
-CT-001 | Login com credenciais válidas(email e senha) | Crítica 
-CT-002 | Login com credenciais inválidas(email e senha) | Alta
-CT-003 | Login com credenciais válidas(Google) | Crítica
-CT-004 | Login com credenciais inválidas(Google) | Alta
-CT-005 | Logout do sistema | Baixa
-CT-006 | Tentativa de SQL Injection | Alta
-CT-007 | Testes de borda - minimo de caracteres, maximo etc | Alta
+TC-001 | Login com credenciais válidas(Google) | Crítica
+TC-002 | Login com credenciais válidas(email e senha) | Crítica 
+TC-003 | Login com credenciais inválidas(Google) | Alta
+TC-004 | Login com credenciais inválidas(email e senha) | Alta
+TC-005 | Logout do sistema | Baixa
+TC-006 | Tentativa de SQL Injection | Alta
+TC-007 | Testes de borda - minimo e maximo de caracteres nos campos senha e email | Alta
 
 # 6. Pré-condições
 
